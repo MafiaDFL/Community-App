@@ -26,6 +26,8 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        getSupportActionBar().hide();
+
         etNewUsername = findViewById(R.id.etNewUsername);
         etNewPassword = findViewById(R.id.etNewPassword);
         etNewEmail = findViewById(R.id.etNewEmail);
@@ -51,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         //Sends user to interest page
         //TODO: Create interest page
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, ChatActivity.class);
         startActivity(i);
         finish();
     }
