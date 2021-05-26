@@ -36,7 +36,6 @@ public class LoginActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnRegister = findViewById(R.id.btnRegister);
         btnLogin = findViewById(R.id.btnLogin);
-        btnTest = findViewById(R.id.btnTest);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,13 +52,6 @@ public class LoginActivity extends AppCompatActivity {
                 //TODO: Make interest page
                 //TODO: Complete register page
                 gotoRegister();
-            }
-        });
-        btnTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "onClick register button");
-                gotoChat();
             }
         });
     }

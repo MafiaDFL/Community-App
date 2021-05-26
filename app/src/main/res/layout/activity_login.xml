@@ -13,50 +13,40 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="228dp"
-        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="214dp"
+        android:layout_marginEnd="77dp"
         android:layout_marginStart="80dp"
         android:background="@drawable/rounded_corners"
         android:text="LOGIN" />
 
     <Button
         android:id="@+id/btnRegister"
-        android:layout_width="252dp"
-        android:layout_height="36dp"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="176dp"
-        android:layout_marginStart="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="133dp"
+        android:layout_marginStart="83dp"
         android:background="@drawable/rounded_corners"
         android:text="REGISTER" />
-
-    <Button
-        android:id="@+id/btnTest"
-        android:layout_width="254dp"
-        android:layout_height="37dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="113dp"
-        android:layout_marginStart="80dp"
-        android:background="@drawable/rounded_corners"
-        android:text="Test Chat" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="wrap_content"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/etUsername"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="278dp"
-        android:layout_marginEnd="38dp"
+        android:layout_marginEnd="76dp"
         android:layout_marginStart="82dp"
         android:layout_marginTop="35dp"
         android:hint="Password"
@@ -64,7 +54,7 @@
 
     <EditText
         android:id="@+id/etUsername"
-        android:layout_width="259dp"
+        android:layout_width="218dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
